@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        $(function(){
+            $("#btn1").click(function(){
+                var txt = $("p1").text();
+                alert(txt);
+            })
+            $("#btn2").click(function(){
+                var ad = $("#div1").text();
+                alert(ad);
+            })
+        })
+    </script>
+</head>
+<body>
+    <p id="p1">Hello world</p>
+    <button id="btn1">Button1</button>
+    <button id="btn2">Button2</button>
+    <div id="div1">Welcome </div>
+</body>
+</html>
